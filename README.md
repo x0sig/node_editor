@@ -60,7 +60,7 @@ A minimal interactive node-graph editor for the browser.
 ## Usage
 
 1. **Load or Import a Graph:**  
-   Paste a JSON graph or load from file.
+   Load a JSON graph from file.
 2. **Edit Nodes:**  
    - Drag nodes to move them.
    - Click the close (×) button to delete.
@@ -86,7 +86,7 @@ A minimal interactive node-graph editor for the browser.
 
 ## Technical Notes
 
-- All rendering is done with SVG for maximum interactivity and clarity[2][3][6][7].
+- All rendering is done with SVG for maximum interactivity and clarity.
 - Edges are interactive: hover to highlight, click to remove.
 - The editor is designed for extensibility and easy integration.
 
