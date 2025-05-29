@@ -1,6 +1,6 @@
 # Node Graph Editor
 
-A minimal interactive node-graph editor for the browser.
+A minimal interactive node-graph editor for the browser. Try it: [Node_Editor](https://x0sig.github.io/node_editor/)
 
 ---
 
