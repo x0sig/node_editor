@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Node Editor</title>
+<link rel="stylesheet" type="text/css" href="node_editor.css">
+</head>
+<body>
+  <div id="sidebar">
+    <button class="sidebar-btn" onclick="importGraph()">Import Graph</button>
+    <button class="sidebar-btn" onclick="exportJSON()">Export Graph</button>
+    <button class="sidebar-btn" onclick="document.getElementById('libInput').click()">Import Library</button>
+    <input type="file" id="libInput" style="display:none" accept=".json" />
+    <input class="search-box" id="libSearch" placeholder="Search..." autocomplete="off" />
+    <ul id="libraryList"></ul>
+  </div>
+  <div id="canvas">
+    <div id="workspace">
+      <svg id="edges" width="40000" height="40000"></svg>
+    </div>
+  </div>
+  <canvas id="minimap" width="180" height="180"></canvas>
+<script src="node_editor.js"></script>
+</body>
+</html>
+
