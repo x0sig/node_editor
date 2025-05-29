@@ -24,8 +24,8 @@ A minimal interactive node-graph editor for the browser.
 
 Here are example screenshots of the Node Graph Editor in action:
 
-![Node Editor Overview Full view](img/full.png Example)
-![Node Editor Overview Zoomed in](img/zoomed.png Example)
+![Node Editor Overview Full view](img/full.png)
+![Node Editor Overview Zoomed in](img/zoomed.png)
 
 ---
 
